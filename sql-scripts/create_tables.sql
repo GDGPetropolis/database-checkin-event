@@ -5,7 +5,8 @@ CREATE TABLE event (
   group_name varchar(200) not null,
   name varchar(200) not null,
   status varchar(200) not null,
-  local_datetime datetime not null,
+  local_date varchar(200) not null,
+  local_time varchar(200) not null,
   link varchar(200) not null,
   PRIMARY KEY (id)
 );
