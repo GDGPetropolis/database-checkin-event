@@ -13,9 +13,9 @@ VALUES
 
 # person
 INSERT INTO person
-(id, name, photo, email)
+(id, name)
 VALUES
-(123456789, 'John Fercher', 'https://www.meetup.com/GDGPetropolis/events/258688153/', 'johnathanfercher22@gmail.com');
+(123456789, 'John Fercher');
 
 # participation
 INSERT INTO participation
