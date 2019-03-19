@@ -23,6 +23,7 @@ CREATE TABLE participation (
   id integer not null auto_increment,
   event_id integer not null,
   person_id integer not null,
+  checkin boolean not null,
   PRIMARY KEY (id),
   FOREIGN KEY (event_id) REFERENCES event(id),
   FOREIGN KEY (person_id) REFERENCES person(id)

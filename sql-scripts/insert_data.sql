@@ -19,6 +19,6 @@ VALUES
 
 # participation
 INSERT INTO participation
-(event_id, person_id)
+(event_id, person_id, checkin)
 VALUES
-(258688153, 123456789);
+(258688153, 123456789, false);
