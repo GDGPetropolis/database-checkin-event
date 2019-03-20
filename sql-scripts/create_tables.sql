@@ -13,7 +13,8 @@ CREATE TABLE event (
 
 CREATE TABLE person (
   id integer not null,
-  name varchar(200) not null,
+  nick varchar(200) not null,
+  name varchar(200) null,
   photo varchar(200) null,
   email varchar(200) null,
   PRIMARY KEY (id)

@@ -13,9 +13,9 @@ VALUES
 
 # person
 INSERT INTO person
-(id, name)
+(id, nick, name)
 VALUES
-(123456789, 'John Fercher');
+(123456789, 'John Fercher', 'Johnathan Fercher da Rosa');
 
 # participation
 INSERT INTO participation
